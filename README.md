@@ -22,17 +22,31 @@ We provide our hardware schematics, CAD files, and anxillary data to help jumpst
 Specific citations and history are given for each component as follows:
 
 Cactus-1 proposals and mission overviews: A. Antunes, R. Schrenk, R. P. Smith, A. Walters, R. Maharaja, M. Horvath
+
 Hermes payload (on Cactus only-- for Hermes sounding rockets, see Maharaja) by C. Murray, E. Schroen (power Board design), Carlos Del Cid, R. Maharaja, P. Smith, IP rights retained by R. Maharaja
+
 Trapsat payload by R. Schrenk, K. Moore, Z. Richards, M. Strittmatter, A. Walters, R. P. Smith, IP rights retained by R. Schrenk
+
 3U++ Tabbed Frame: by R. P. Smith, R. Schrenk, provided under an open hardware license
+
 Pi-CPU/Health & Safety Boards: by R. P. Smith, A. Antunes, provided under an open hardware license
+
 Power bus: by R. P. Smith, G. Auvray, C. Odigwe, A. Antunes, R. Schrenk
+
 Solar: (Added this because power and solar have different aspects (i.e. licensing to use) by R. P. Smith with assembly help from George Gieomekis, Marcus Bailey, Sam Lawson, Nick Keller, Sarah Sharpe, Alex English, Nick Aniello, Chris Finch
+
 Passive Magnetics: by E. Routhier, B Reese , R. P. Smith with help by Ian Hastings, Christina Williams
+
 Flight software by A. Antunes with help by Randy Powell, Zalika Dixon, and thanks to Alan Cudmore for useful discussion on his “PiSat” concept
+
 Thermal blankets by R. Schrenk with help by Sarah Sharpe, Marcus Bailey, and George Giakoumakis
+
 Comms: by M. Horvath, A. Johnson, A. Antunes
+
 Burn wire, foot switches, inhibits, ports, and subsystems not mentioned: considered either part of the above, part of the general Cactus mission, or not sufficiently novel to merit publication or separate enumeration.
+
 Full list of high-level support (addendum): Alex Antunes, Angela Walters, Rishabh Maharaja, Marcel Mabsen, Patrick Stakem, Alan Cudmore, Dave McComas, Suzanne Strege, Alison Evans, Cinnamon Wright
+
 Full list of students (addendum): Pierce Smith, Ryan Shrenk, Nathan Weideman, Mark Horvath, Alec Johnson, Chris Murray, Sarah Sharpe, George Giakoumakis, Marcus Bailey, Xavier Guzman, Marissa Jagernath, Chukwuma Odigwe, Keegan Moore, Zack Richard, Jamil Ahmed, Gary Visser, Joshua Joseph, Eric Ruthier, Sean Mullin, Christina Williams, Nick Aiello, Randy Powell, Mikus Bormanis, Christel Gesterling, Zalika Dixon, Mike Stritmatter, Josh Hernendez, Ralph Stormer III, Dan Whiteside, Bryce Reese, and others.
+
 uploaded July 2019
