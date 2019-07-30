@@ -1,194 +1,38 @@
 # cactus-open
-Open source hardware and code for a CubeSat
+Open source documentation, hardware and code for a CubeSat
 
-Released under the CERN Open Hardware License version 1.2.  Credit for the Work should be given to R.P. Smith in terms of authorship.  Individual items will indicate citation/credits as well.  Generally, you can use this to build your own CubeSat, the full license terms are below.
+We provided 4 documents for use by other CubeSat teams, 3 of which comprise our "CubeSat Cookbook".
 
-CERN Open Hardware Licence v1.2 
+1) CubeSat_Cookbook_Vol_1_Engineering_Guide.pdf (by R. Pierce Smith) is a comprehensive guide to building your own CubeSat at a detailed engineering level, and includes lessons learned from our Cactus-1 mission.
 
-Preamble
+2) CubeSat_Cookbook_Vol_2_Newcomers_Guide.pdf (by Jorge Rodriguez) is designed for newcomers to CubeSats and discusses some of the overarcing concepts including power, mission readiness reviews, and building effective teams.
 
-Through this CERN Open Hardware Licence ("CERN OHL") version 1.2, CERN
-wishes to provide a tool to foster collaboration and sharing among
-hardware designers.  The CERN OHL is copyright CERN. Anyone is welcome
-to use the CERN OHL, in unmodified form only, for the distribution of
-their own Open Hardware designs. Any other right is reserved. Release
-of hardware designs under the CERN OHL does not constitute an
-endorsement of the licensor or its designs nor does it imply any
-involvement by CERN in the development of such designs.
+3) CubeSat_Cookbook_Vol_3_Common_EPS.pdf (by Erik Schroen) walks you through how to design and customize the electrical power system for your specific CubeSat mission (based on lessons learned from Cactus-1).
 
-1. Definitions
+4) TheHABHandbook.pdf (by Ian Hastings) is a guide for teams starting up High Altitude Balloon projects.  Under Capitol's "Crawl, Walk, Run" philosophy, we highly recommend teams look at flying payloads and components via HAB as an effective way to iteratively improve your designs.
 
-In this Licence, the following terms have the following meanings:
- 
-“Licence” means this CERN OHL.
+Acknowledgements: The Cactus-1 mission is Capitol Technology University's first CubeSat mission. Our launch opportunity was provided via the NASA CubeSat Launch Initiative. The Cactus-1 mission is supported by grants from the Maryland Space Grant Consortium (MDSGC).
 
-“Documentation” means schematic diagrams, designs, circuit or circuit
-board layouts, mechanical drawings, flow charts and descriptive text,
-and other explanatory material that is explicitly stated as being made
-available under the conditions of this Licence. The Documentation may
-be in any medium, including but not limited to computer files and
-representations on paper, film, or any other media.
+We provide our hardware schematics, CAD files, and anxillary data to help jumpstart other teams.  Our hardware on this github repository is released under the CERN Open Hardware License version 1.2.  Credit for the Work should be given to R.P. Smith in terms of authorship.  Individual items will indicate citation/credits as well.  Generally, you can use this to build your own CubeSat, the full license terms are below.
 
-“Documentation Location” means a location where the Licensor has
-placed Documentation, and which he believes will be publicly
-accessible for at least three years from the first communication to
-the public or distribution of Documentation.
+* Cactus-1 contains the files for our specific architecture
+* CADD Files contains the Cactus-1 stack and board designs used
+* EaglePCBs contains PC104, solar, and other bus panels suitable for modding
 
-“Product” means either an entire, or any part of a, device built using
-the Documentation or the modified Documentation.
+Specific citations and history are given for each component as follows:
 
-“Licensee” means any natural or legal person exercising rights under
-this Licence.
-
-“Licensor” means any natural or legal person that creates or modifies
-Documentation and subsequently communicates to the public and/ or
-distributes the resulting Documentation under the terms and conditions
-of this Licence.
-
-A Licensee may at the same time be a Licensor, and vice versa. 
-
-Use of the masculine gender includes the feminine and neuter genders
-and is employed solely to facilitate reading.
-
-2. Applicability
-
-2.1. This Licence governs the use, copying, modification,
-communication to the public and distribution of the Documentation, and
-the manufacture and distribution of Products. By exercising any right
-granted under this Licence, the Licensee irrevocably accepts these
-terms and conditions.
-
-2.2. This Licence is granted by the Licensor directly to the Licensee,
-and shall apply worldwide and without limitation in time. The Licensee
-may assign his licence rights or grant sub-licences.
-
-2.3. This Licence does not extend to software, firmware, or code
-loaded into programmable devices which may be used in conjunction with
-the Documentation, the modified Documentation or with Products, unless
-such software, firmware, or code is explicitly expressed to be subject
-to this Licence. The use of such software, firmware, or code is
-otherwise subject to the applicable licence terms and conditions.
-
-3. Copying, modification, communication to the public and distribution
-of the Documentation
-
-3.1. The Licensee shall keep intact all copyright and trademarks
-notices, all notices referring to Documentation Location, and all
-notices that refer to this Licence and to the disclaimer of warranties
-that are included in the Documentation. He shall include a copy
-thereof in every copy of the Documentation or, as the case may be,
-modified Documentation, that he communicates to the public or
-distributes.
-
-3.2. The Licensee may copy, communicate to the public and distribute
-verbatim copies of the Documentation, in any medium, subject to the
-requirements specified in section 3.1.
-
-3.3. The Licensee may modify the Documentation or any portion thereof
-provided that upon modification of the Documentation, the Licensee
-shall make the modified Documentation available from a Documentation
-Location such that it can be easily located by an original Licensor
-once the Licensee communicates to the public or distributes the
-modified Documentation under section 3.4, and, where required by
-section 4.1, by a recipient of a Product. However, the Licensor shall
-not assert his rights under the foregoing proviso unless or until a
-Product is distributed.
-
-3.4. The Licensee may communicate to the public and distribute the
-modified Documentation (thereby in addition to being a Licensee also
-becoming a Licensor), always provided that he shall:
-
-a) comply with section 3.1;
-
-b) cause the modified Documentation to carry prominent notices stating
-that the Licensee has modified the Documentation, with the date and
-description of the modifications;
-
-c) cause the modified Documentation to carry a new Documentation
-Location notice if the original Documentation provided for one;
-
-d) make available the modified Documentation at the same level of
-abstraction as that of the Documentation, in the preferred format for
-making modifications to it (e.g. the native format of the CAD tool as
-applicable), and in the event that format is proprietary, in a format
-viewable with a tool licensed under an OSI-approved license if the
-proprietary tool can create it; and
-
-e) license the modified Documentation under the terms and conditions
-of this Licence or, where applicable, a later version of this Licence
-as may be issued by CERN.
-
-3.5. The Licence includes a non-exclusive licence to those patents or
-registered designs that are held by, under the control of, or
-sub-licensable by the Licensor, to the extent necessary to make use of
-the rights granted under this Licence. The scope of this section 3.5
-shall be strictly limited to the parts of the Documentation or
-modified Documentation created by the Licensor.
-
-4. Manufacture and distribution of Products
-
-4.1. The Licensee may manufacture or distribute Products always
-provided that, where such manufacture or distribution requires a
-licence under this Licence the Licensee provides to each recipient of
-such Products an easy means of accessing a copy of the Documentation
-or modified Documentation, as applicable, as set out in section 3.
-
-4.2. The Licensee is invited to inform any Licensor who has indicated
-his wish to receive this information about the type, quantity and
-dates of production of Products the Licensee has (had) manufactured
-
-5. Warranty and liability
-
-5.1. DISCLAIMER – The Documentation and any modified Documentation are
-provided "as is" and any express or implied warranties, including, but
-not limited to, implied warranties of merchantability, of satisfactory
-quality, non-infringement of third party rights, and fitness for a
-particular purpose or use are disclaimed in respect of the
-Documentation, the modified Documentation or any Product. The Licensor
-makes no representation that the Documentation, modified
-Documentation, or any Product, does or will not infringe any patent,
-copyright, trade secret or other proprietary right. The entire risk as
-to the use, quality, and performance of a Product shall be with the
-Licensee and not the Licensor. This disclaimer of warranty is an
-essential part of this Licence and a condition for the grant of any
-rights granted under this Licence. The Licensee warrants that it does
-not act in a consumer capacity.
-
-5.2. LIMITATION OF LIABILITY – The Licensor shall have no liability
-for direct, indirect, special, incidental, consequential, exemplary,
-punitive or other damages of any character including, without
-limitation, procurement of substitute goods or services, loss of use,
-data or profits, or business interruption, however caused and on any
-theory of contract, warranty, tort (including negligence), product
-liability or otherwise, arising in any way in relation to the
-Documentation, modified Documentation and/or the use, manufacture or
-distribution of a Product, even if advised of the possibility of such
-damages, and the Licensee shall hold the Licensor(s) free and harmless
-from any liability, costs, damages, fees and expenses, including
-claims by third parties, in relation to such use.
-
-6. General
-
-6.1. Except for the rights explicitly granted hereunder, this Licence
-does not imply or represent any transfer or assignment of intellectual
-property rights to the Licensee.
-
-6.2. The Licensee shall not use or make reference to any of the names
-(including acronyms and abbreviations), images, or logos under which
-the Licensor is known, save in so far as required to comply with
-section 3. Any such permitted use or reference shall be factual and
-shall in no event suggest any kind of endorsement by the Licensor or
-its personnel of the modified Documentation or any Product, or any
-kind of implication by the Licensor or its personnel in the
-preparation of the modified Documentation or Product.
-
-6.3. CERN may publish updated versions of this Licence which retain
-the same general provisions as this version, but differ in detail so
-far this is required and reasonable. New versions will be published
-with a unique version number.
-
-6.4. This Licence shall terminate with immediate effect, upon written
-notice and without involvement of a court if the Licensee fails to
-comply with any of its terms and conditions, or if the Licensee
-initiates legal action against Licensor in relation to this
-Licence. Section 5 shall continue to apply.
+Cactus-1 proposals and mission overviews: A. Antunes, R. Schrenk, R. P. Smith, A. Walters, R. Maharaja, M. Horvath
+Hermes payload (on Cactus only-- for Hermes sounding rockets, see Maharaja) by C. Murray, E. Schroen (power Board design), Carlos Del Cid, R. Maharaja, P. Smith, IP rights retained by R. Maharaja
+Trapsat payload by R. Schrenk, K. Moore, Z. Richards, M. Strittmatter, A. Walters, R. P. Smith, IP rights retained by R. Schrenk
+3U++ Tabbed Frame: by R. P. Smith, R. Schrenk, provided under an open hardware license
+Pi-CPU/Health & Safety Boards: by R. P. Smith, A. Antunes, provided under an open hardware license
+Power bus: by R. P. Smith, G. Auvray, C. Odigwe, A. Antunes, R. Schrenk
+Solar: (Added this because power and solar have different aspects (i.e. licensing to use) by R. P. Smith with assembly help from George Gieomekis, Marcus Bailey, Sam Lawson, Nick Keller, Sarah Sharpe, Alex English, Nick Aniello, Chris Finch
+Passive Magnetics: by E. Routhier, B Reese , R. P. Smith with help by Ian Hastings, Christina Williams
+Flight software by A. Antunes with help by Randy Powell, Zalika Dixon, and thanks to Alan Cudmore for useful discussion on his “PiSat” concept
+Thermal blankets by R. Schrenk with help by Sarah Sharpe, Marcus Bailey, and George Giakoumakis
+Comms: by M. Horvath, A. Johnson, A. Antunes
+Burn wire, foot switches, inhibits, ports, and subsystems not mentioned: considered either part of the above, part of the general Cactus mission, or not sufficiently novel to merit publication or separate enumeration.
+Full list of high-level support (addendum): Alex Antunes, Angela Walters, Rishabh Maharaja, Marcel Mabsen, Patrick Stakem, Alan Cudmore, Dave McComas, Suzanne Strege, Alison Evans, Cinnamon Wright
+Full list of students (addendum): Pierce Smith, Ryan Shrenk, Nathan Weideman, Mark Horvath, Alec Johnson, Chris Murray, Sarah Sharpe, George Giakoumakis, Marcus Bailey, Xavier Guzman, Marissa Jagernath, Chukwuma Odigwe, Keegan Moore, Zack Richard, Jamil Ahmed, Gary Visser, Joshua Joseph, Eric Ruthier, Sean Mullin, Christina Williams, Nick Aiello, Randy Powell, Mikus Bormanis, Christel Gesterling, Zalika Dixon, Mike Stritmatter, Josh Hernendez, Ralph Stormer III, Dan Whiteside, Bryce Reese, and others.
+uploaded July 2019
