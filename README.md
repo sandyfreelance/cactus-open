@@ -13,7 +13,9 @@ We provide 4 documents for use by other CubeSat teams, 3 of which comprise our "
 
 Acknowledgements: The Cactus-1 mission is Capitol Technology University's first CubeSat mission. Our launch opportunity was provided via the NASA CubeSat Launch Initiative. The Cactus-1 mission is supported by grants from the Maryland Space Grant Consortium (MDSGC).
 
-We also provide our hardware schematics, CAD files, and anxillary data to help jumpstart other teams.  Our hardware on this github repository is released under the CERN Open Hardware License version 1.2.  Credit for the Work should be given to R.P. Smith in terms of authorship.  Individual items will indicate citation/credits as well.  Generally, you can use this to build your own CubeSat, the full license terms are below.
+5) We also provide Ralph Stormer III's "PuzzleSat" 3D-printable CubeSat structure models.  This is a simple modular system for building CubeSat-spec PC104-size-compliant test frames for 1U, 2U, 3U, and other variants so engineering teams can practice working within the CubeSat size requirements.  Documetation, STL and CAD files, and a photo are provided.  They are also fun for prototyping, and we use them for student payload low altitude tests as well.
+
+6) We also provide our hardware schematics, CAD files, and anxillary data to help jumpstart other teams.  Our hardware on this github repository is released under the CERN Open Hardware License version 1.2.  Credit for the Work should be given to R.P. Smith in terms of authorship.  Individual items will indicate citation/credits as well.  Generally, you can use this to build your own CubeSat, the full license terms are below.
 
 * Cactus-1 contains the files for our specific architecture
 * CADD Files contains the Cactus-1 stack and board designs used
