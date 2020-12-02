@@ -49,8 +49,10 @@ Comms: by M. Horvath, A. Johnson, A. Antunes
 
 Burn wire, foot switches, inhibits, ports, and subsystems not mentioned: considered either part of the above, part of the general Cactus mission, or not sufficiently novel to merit publication or separate enumeration.
 
+Ground team: Mark Horvath, Charis Houston, Devon Marshall, Seth Dickerson
+
 Full list of high-level support (addendum): Alex Antunes, Angela Walters, Rishabh Maharaja, Marcel Mabsen, Patrick Stakem, Alan Cudmore, Dave McComas, Suzanne Strege, Alison Evans, Cinnamon Wright
 
-Full list of students (addendum): Pierce Smith, Ryan Shrenk, Nathan Weideman, Mark Horvath, Alec Johnson, Chris Murray, Sarah Sharpe, George Giakoumakis, Marcus Bailey, Xavier Guzman, Marissa Jagernath, Chukwuma Odigwe, Keegan Moore, Zack Richard, Jamil Ahmed, Gary Visser, Joshua Joseph, Eric Ruthier, Sean Mullin, Christina Williams, Nick Aiello, Randy Powell, Mikus Bormanis, Christel Gesterling, Zalika Dixon, Mike Stritmatter, Josh Hernendez, Ralph Stormer III, Dan Whiteside, Bryce Reese, and others.
+Full list of students (addendum): Pierce Smith, Ryan Shrenk, Nathan Weideman, Mark Horvath, Alec Johnson, Chris Murray, Sarah Sharpe, George Giakoumakis, Marcus Bailey, Xavier Guzman, Marissa Jagernath, Chukwuma Odigwe, Keegan Moore, Zack Richard, Jamil Ahmed, Gary Visser, Joshua Joseph, Eric Ruthier, Sean Mullin, Christina Williams, Nick Aiello, Randy Powell, Mikus Bormanis, Christel Gesterling, Zalika Dixon, Mike Stritmatter, Josh Hernendez, Ralph Stormer III, Dan Whiteside, Bryce Reese, Charis Houston, Devon Marshall, Seth Dickerson, and others.
 
-uploaded July 2019
+uploaded July 2019, updated Dec 2020
