@@ -1,5 +1,6 @@
 # cactus-open
 Open source documentation, hardware and code for a CubeSat
+[![DOI](https://zenodo.org/badge/143091053.svg)](https://zenodo.org/badge/latestdoi/143091053)
 
 We provide 4 documents for use by other CubeSat teams, 3 of which comprise our "CubeSat Cookbook".
 
